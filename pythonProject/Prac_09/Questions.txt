@@ -1,0 +1,82 @@
+        Quick Questions
+
+1. The Difference Between 'r' and 'w' Modes:
+   - 'r' (read): When opening a file in 'r' mode, it allows you to read the file's contents but does not
+    allow writing to or modifying the file. It opens the file in read-only mode.
+   - 'w' (write): When opening a file in 'w' mode, it allows you to write data to the file, creating a new
+   file if it doesn't exist or overwriting the file's contents if it does exist. It opens the file in
+   write-only mode, and if the file already exists, it will be truncated to zero length.
+
+2. File Object vs. File Name vs. File's Contents:
+   - File Object: A file object is a Python object that represents a file on the filesystem. It provides
+    methods and attributes for performing various operations on the file, such as reading, writing, and
+    closing. It acts as an interface between your Python code and the actual file on disk.
+   - File Name: The file name is simply the name of the file, including its extension, e.g., "example.txt."
+    It is a string that identifies the file within the file system.
+   - File's Contents: The file's contents refer to the data stored inside the file. These are the bytes,
+   characters, or structured data that the file contains, depending on the file's format (e.g., text, binary,
+    JSON, etc.).
+
+3. Necessity of Closing a File:
+   It is necessary to close a file after it has been opened and used for several reasons:
+   - Resource Management: Closing a file releases system resources (file handles) associated with it.
+   Failure to close files can lead to resource leaks and potentially limit the number of files your
+   program can work with simultaneously.
+   - Data Integrity: Closing a file ensures that all pending data is written to the file before it's
+   closed. If you don't close the file, some data may remain buffered and not get saved.
+   - Avoiding Data Corruption: Closing a file prevents accidental data corruption. If the file is left
+   open and your program writes to it later, it could overwrite or append data unexpectedly.
+
+4. Principle for Storing Values in Constants:
+   A good principle for deciding whether a literal value should be stored in a constant
+   (uppercase variable name) is the concept of "magic numbers" and "magic strings." Any value that is
+   used multiple times in your code and has a specific meaning should be stored in a constant. This makes
+    the code more readable, maintainable, and less error-prone. Constants should be used to give meaningful
+    names to these values, making the code self-documenting.
+
+5. Python Expression for File Extension:
+   You can extract the file extension from a filename using the following Python expression:
+   ```python
+   filename = "this_is_a_name.txt"  # or filename = "document.docx"
+   file_extension = filename.split('.')[-1]
+   ```
+
+6. Number of Quick Questions at the Start of a Practical:
+   The number of quick questions at the start of a practical can vary depending on the complexity and goals
+    of the practical. However, a typical range might be around 5 to 10 quick questions. These questions are
+     often designed to assess your understanding of key concepts or to review the prerequisites for the
+      practical. They serve as a warm-up and help you mentally prepare for the tasks ahead.
+
+        LOGIC EXERCISE
+
+ This statement presents a classic paradox known as the "liar paradox" or "liar's paradox."
+ It's a self-referential statement that creates a logical contradiction.
+
+    possibilities:
+
+1. If the first statement is true, then it implies that there is exactly one false statement in the list.
+However, this means that the second statement is also true (since there are exactly two false statements in
+ the list). But this contradicts the first statement, leading to a contradiction.
+
+2. If the first statement is false, then it implies that there is not exactly one false statement in the
+list. This means there could be zero false statements or more than one false statement. But this also leads
+to a contradiction because it would make the second or third statements true.
+
+3. If the second statement is true, it implies that there are exactly two false statements in the list.
+But this means that the first statement is also true (there is one false statement), which contradicts the
+ second statement.
+
+4. If the second statement is false, it implies that there are not exactly two false statements in the list.
+This could mean there are zero, one, or three false statements, but again, this leads to a contradiction
+because it would make either the first or third statements true.
+
+5. If the third statement is true, it implies that there are exactly three false statements in the list.
+This also means that the first and second statements are true, which leads to a contradiction.
+
+6. If the third statement is false, it implies that there are not exactly three false statements in the list.
+ This could mean there are zero, one, or two false statements, but again, this leads to a contradiction.
+
+In each case, we end up with a contradiction, and there is no consistent interpretation of the statements.
+Therefore, there is no definitive answer to how many false statements there are in the list. The statements
+create a paradox, and the paradox illustrates the challenges of self-referential statements in logic and
+ language.

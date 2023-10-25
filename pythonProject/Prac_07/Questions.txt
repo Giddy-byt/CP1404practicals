@@ -1,0 +1,50 @@
+
+            Quick Questions
+1. Global constants in a program should typically be placed at the top of the program, outside of any functions or classes,
+and they should be named using uppercase letters with underscores (e.g., PI = 3.14159). This convention makes it clear
+that these variables should not be modified and are intended to be constants.
+
+2.Two reasons not to use global variables extensively in a program are:
+
+a. Maintainability: Global variables can make code harder to understand and maintain, especially in large programs.
+When a variable can be modified from anywhere in the code, it becomes challenging to track changes and understand how
+it affects the program's behavior.
+
+b. Debugging: Debugging can become more difficult when global variables are involved. Unexpected changes to global
+variables can lead to unexpected behavior in different parts of the code. Isolating issues and tracing their origins
+ can be cumbersome.
+
+3. When you have two variables with the same name but in different functions, they are said to have different scopes.
+ Each function defines its own scope, and variables declared within that function are accessible only within that scope.
+
+4.The red dot in the margin in PyCharm that pauses the program running when using the debugger is called a "breakpoint.
+" Breakpoints allow you to pause the program's execution at a specific line of code to inspect variables, step through
+ code, and diagnose issues.
+
+5.If you had a line of code like SOME_VALUE += 1 and SOME_VALUE is not defined as a global variable or passed into
+the function as an argument, it would result in a NameError. Python would not know what SOME_VALUE is, and you should
+define it before trying to modify its value.
+
+6.The single most important design principle for designing functions in Python is "DRY," which stands for "Don't Repeat
+ Yourself." This principle encourages code reuse and modularity by promoting the creation of functions to encapsulate
+ reusable pieces of code. It aims to minimize code duplication and improve code maintainability.
+
+        LOGIC EXERCISE
+ I read the statement correctly the first time.
+
+        REFLECTION
+
+ 1. Attention to Detail Matters: The practicals have reinforced the importance of paying close attention to details, both
+  in understanding the problem statement and in writing clean, error-free code. Small oversights can lead to significant
+   issues, so being meticulous is crucial.
+
+2. Effective Problem Decomposition: Breaking down complex problems into smaller, manageable components has proven to be an
+effective problem-solving strategy. It helps me focus on solving one part at a time, making the overall task less daunting
+and more manageable.
+
+3. Testing and Iteration are Key: Regular testing and iteration are essential for identifying and correcting errors in code.
+ Through practicals, I've learned that it's often faster to write small portions of code, test them, and make necessary
+ adjustments rather than writing a large section of code and then debugging it all at once.
+
+These lessons have not only improved my approach to completing practical assignments but are also valuable skills that
+I can apply to various problem-solving situations in programming and beyond.

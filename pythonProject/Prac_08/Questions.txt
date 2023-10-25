@@ -1,0 +1,55 @@
+                    Quick Questions
+1. Main Difference Between List and Tuple:
+
+Mutability: The main difference between a list and a tuple is that lists are mutable, meaning you can change
+their contents (add, remove, or modify elements), while tuples are immutable, meaning once you create them,
+you cannot change their contents.
+Convention for Naming Lists:
+
+2. In Python, lists are typically named using plural nouns to indicate that they can hold multiple items. For
+ example, you might name a list that holds a collection of fruits as fruits.
+Good Name for a List of Cities:
+
+3. A good name for a list of cities could be city_names, cities, or something descriptive that conveys the
+purpose of the list.
+Number of Elements in a List:
+
+4. Python lists can hold any number of elements, from an empty list (0 elements) to a list with millions of
+elements. There's no fixed limit on the number of elements in a list.
+True or False? Elements in a List Must All Be of the Same Type:
+
+5. False. In Python, lists can contain elements of different types. For example, a list can contain a mix of
+ integers, floats, strings, or even other lists. Python's flexibility with data types is one of its strengths.
+Python's len Function:
+
+6. Python's len() function is used to determine the length (number of elements) of an iterable object, such
+ as a list, tuple, string, or dictionary. It returns the number of items in the object. You can use it with
+ various types, including lists, tuples, strings, dictionaries, sets, and more.
+
+        List Expressions
+
+  Lists Warmup:
+
+1. numbers[0]: 10
+2. numbers[-1]: 81
+3. numbers[3]: 81
+4. 20 in numbers: True
+5. 1 in numbers: False
+6. numbers[1] + numbers[2]: 60
+7. len(numbers): 4
+
+    Warmup (2):
+ 1. Change the first element of numbers to 1:
+numbers[0] = 1
+
+ 2. Change the last element of numbers to 4:
+ numbers[-1] = 4
+
+  3. Check if 1 is an element of numbers:
+ 1 in numbers
+
+  4. Print the second value in the list multiplied by 10:
+
+print(numbers[1] * 10)
+
+

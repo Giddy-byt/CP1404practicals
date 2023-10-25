@@ -1,0 +1,57 @@
+    Quick Questions
+
+    Two valid and well-named variable names:
+
+1. 'total_score': This name is clear and descriptive, indicating it represents a total score in a program.
+2. 'user_age': It specifies that the variable stores the age of a user, making it easy to understand.
+
+    Two valid but not well-named variable names:
+
+1. 'x': While it's valid, it lacks clarity and doesn't convey any meaningful information about what the variable represents.
+2. 'temp': It's valid, but "temp" is an abbreviation that doesn't explain what the variable is used for. Longer and more
+descriptive names are often better.
+
+    Two variable names that would not be valid:
+
+1. '3apples': Variable names cannot start with a digit.
+2. 'my-variable': Variable names cannot contain hyphens; underscores should be used instead.
+
+    Naming convention for variables in Python:
+
+Variable names in Python should follow these conventions:
+
+  Start with a letter (a-z, A-Z) or an underscore (_).
+  Followed by letters, numbers, or underscores.
+  Variable names are case-sensitive (e.g., 'myVar' and 'myvar' are considered different variables).
+
+    What is a constant? Give an example of when you would use one:
+
+A constant is a value that does not change during the execution of a program. It's used to store data that remains fixed
+ throughout the program's execution. Constants are typically named with uppercase letters and underscores to distinguish
+ them from variables. For example:
+
+PI = 3.14159265359  # An example of a constant representing the value of pi
+
+You can use constants when you have a value that should remain consistent throughout your program, such as mathematical
+constants (e.g., pi), configuration settings, or any value that should not be modified accidentally.
+
+Naming convention for constants:
+Constants in Python are typically named using uppercase letters and underscores to distinguish them from variables and
+make them easily recognizable. For example: 'MAX_VALUE', 'TAX_RATE', 'PI'.
+
+                                    LOGICAL EXERCISE
+
+    Q1.
+A drawer contains 10 black and 10 white socks that are all mixed up. What is the fewest number of socks you can take from
+ the drawer without looking and be sure to get a pair of the same colour?
+
+   You would need to take a minimum of **three socks** from the drawer without looking to be sure of getting a pair of the
+same color.
+
+Here's why:
+
+1. In the worst-case scenario, you could pick one black sock and one white sock.
+2. The next sock you pick will definitely match the color of one of the socks you already have, giving you a pair.
+
+So, with three socks, you are guaranteed to have a pair of the same color.
+

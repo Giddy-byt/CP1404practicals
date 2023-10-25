@@ -1,0 +1,69 @@
+
+                QUICK QUESTIONS
+
+1. The PyCharm keyboard shortcut for commenting out a selection of code is typically Ctrl + / on Windows or Cmd + / on Mac.
+   This shortcut comments out the selected lines or uncommented them if they are already commented.
+
+2. The two kinds of loops available in Python are "for" loops and "while" loops.
+
+3. A "sentinel" in the context of loops is a special value used to signal the end of input or processing. It acts as a
+stopping condition for the loop. For example, in a program that reads numbers from the user until they enter a sentinel
+ value like -1, the sentinel (-1) indicates that the user wants to stop entering numbers.
+
+4. There is nothing technically wrong with the variable name "nothingWrong" in Python. However, it's generally recommended
+to use lowercase letters and underscores for variable names following the Python naming conventions. So, a more
+conventional name would be "nothing_wrong."
+
+5. Augmented assignment operators in Python are shortcuts for performing an operation and assignment in a single step.
+They include operators like +=, -=, *=, /=, //=, %=, **=, and &=, among others.
+
+                LOGIC EXERCISE
+1. Start with one marble from the box labeled "Mixed." Since all labels are incorrect, it cannot be the Mixed box.
+
+2. You now have three possibilities:
+
+    If the marble is white, then the box labeled "Mixed" must contain only white marbles. So, the labels "White" and "Black"
+ are swapped.
+    If the marble is black, then the box labeled "Mixed" must contain only black marbles. So, the labels "White" and "Black"
+ are swapped.
+    If the marble is black, then the box labeled "Mixed" must contain one white and one black marble. So, the labels "Mixed"
+ and "Black" are swapped.
+
+3. Now, you know which box contains only one type of marble, and you have identified one of the other two boxes as well.
+To determine the last box, simply inspect one marble from the remaining unopened box. This will tell you which label
+corresponds to that box.
+
+With this approach, you only need to inspect two marbles in total:
+
+One from the box labeled "Mixed" to determine the nature of the mixed box (white or black).
+One from either the "White" or "Black" labeled box (whichever you didn't open in step 2) to identify the last box.
+This solution ensures that you can definitely determine the contents of all three boxes with just two marble inspections.
+
+                Loop outputs
+(a)
+1. Output: 0 1 2 3 4 5
+
+2. Output: 33 34 35 36 37 38
+
+3. Output: 17 16 15 14 13 12
+
+4. Output: 1 0
+
+(b)
+
+1. [1, 5, 9, 13]: range(1, 14, 4)
+
+2. [3, 2, 1]: range(3, 0, -1)
+
+3. [7, 4, 1, -2, -5]: range(7, -6, -3)
+
+            Patterns
+1. Error-checking user input, looping until they enter a valid response: Indefinite (while loop)
+
+2. A menu with several options including 'quit': Definite (for loop)
+
+3. Displaying all the months in a year: Definite (for loop)
+
+4. Printing 5 random numbers: Definite (for loop)
+
+5. Printing n random numbers, where n is a user input: Indefinite (while loop)

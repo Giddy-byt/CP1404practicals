@@ -1,0 +1,30 @@
+            Quick Questions
+ 1. Difference between 'r' and 'w' modes when opening a file:
+
+'r' mode: Stands for "read." It opens the file in read-only mode, allowing you to read its contents but not modify or write to it. If the file does not exist, it will result in a FileNotFoundError.
+'w' mode: Stands for "write." It opens the file in write mode, allowing you to write data to the file. If the file exists, it will overwrite the existing content. If the file does not exist, a new file will be created.
+2. File Object vs. File Name vs. File's Contents:
+
+File Object: A file object represents an open file in Python. It is a Python data type that provides methods and attributes for interacting with the file, such as reading, writing, and closing the file. It acts as an interface between your Python code and the actual file on the disk.
+File Name: The file name is simply the name of the file, including its extension, which is used to identify the file in the file system.
+File's Contents: The file's contents refer to the data stored within the file. These are the actual bytes of data that the file contains, such as text, binary data, or any other type of information.
+Why It's Necessary to Close a File:
+
+3. Closing a file is necessary to release system resources associated with the open file. When you open a file, the operating system allocates resources to keep track of the file, its position, and other details. If you don't close the file properly, it can lead to resource leaks, which may cause issues like running out of file handles or not being able to access the file from other programs.
+Closing the file also ensures that any buffered data is flushed to the file, ensuring that all data is written or read as expected.
+4. Storing Literal Values in CONSTANTS:
+
+A good principle for deciding whether a literal value should be stored in a constant is if the value is used in multiple places within your code. If the same value appears in multiple locations, using a constant improves code maintainability and readability. It allows you to change the value in one place (the constant declaration) rather than hunting down and modifying every occurrence of the literal value in your code.
+Python Expression to Get File Extension:
+
+
+filename = "this_is_a_name.txt"
+file_extension = filename.split(".")[-1]
+Number of Quick Questions at the Start of a Practical:
+
+5.The number of quick questions at the start of a practical can vary depending on the complexity of the practical and the
+learning objectives. However, having around 5 to 10 quick questions is a reasonable range. These questions can serve as
+ a warm-up to test basic knowledge and get students thinking about the topic before diving into more complex tasks.
+ The questions should be designed to assess prerequisite knowledge and prepare students for the main tasks of the practical.
+
+        

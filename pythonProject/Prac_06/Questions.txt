@@ -1,0 +1,26 @@
+                Quick Questions
+
+ 1. In PyCharm, the shortcut key for commenting selected lines of code is Ctrl + / on Windows/Linux or Command + / on Mac.
+
+2. The single most important design principle for designing functions is "Single Responsibility Principle" (SRP). It states
+ that a function should have one and only one reason to change, meaning it should perform a single well-defined task or
+  responsibility.
+
+3. The Python keyword for returning a value from a function is return.
+
+4. In Python, parameters are variables declared in the function definition, while arguments are the actual values passed to
+the function when it is called. Parameters are placeholders for the arguments that will be supplied when calling the
+function.
+
+5. The Python function call for generating a random number between 1 and 100 is random.randint(1, 100) provided you have
+imported the random module.
+
+6. Four functions we've used in the subject so far are print(), input(), int(), and float()
+
+                   Good Names
+1. calculate_subject_grade
+2. convert_usd_to_aud
+3. print_report
+4. calculate_average
+5. is_even
+6. get_non_negative_salary
